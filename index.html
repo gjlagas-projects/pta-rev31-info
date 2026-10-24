@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>pta-rev31</title>
+  <style>
+    :root { --fg: #1f2328; --bg: #ffffff; --muted: #57606a; --link: #0969da; }
+    @media (prefers-color-scheme: dark) { :root { --fg: #e6edf3; --bg: #0d1117; --muted: #8d96a0; --link: #4493f8; } }
+    body { margin: 0 auto; max-width: 42rem; padding: 2rem 1rem; font: 16px/1.6 system-ui, sans-serif; color: var(--fg); background: var(--bg); }
+    h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+    p.sub { color: var(--muted); margin-top: 0; }
+    a { color: var(--link); }
+  </style>
+</head>
+<body>
+  <h1>pta-rev31</h1>
+  <p class="sub">A personal photo archive tool.</p>
+
+  <p>pta-rev31 organizes one family's photos and videos. It runs for its owner only, on the owner's own
+     Google Cloud project, and works on files in the owner's own Google Drive.</p>
+
+  <p>It signs in to one Google account, the owner's, with two permissions:</p>
+  <ul>
+    <li><strong>Google Drive:</strong> to read new photos dropped into the archive's folders, file them by date,
+        and keep notes (tags, dates) beside them.</li>
+    <li><strong>Gmail, send only:</strong> to send the owner a daily summary and cost alerts. It cannot read mail.</li>
+  </ul>
+
+  <p>It is not offered to the public and has no other users.</p>
+
+  <p><a href="privacy.html">Privacy policy</a></p>
+</body>
+</html>
